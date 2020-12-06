@@ -6,5 +6,9 @@ def prime?(num)
     return true
   elsif num % 5 != 0 
     return true
+  elsif num % 7 != 0 
+    return true
+  else
+    false
 end
 end
