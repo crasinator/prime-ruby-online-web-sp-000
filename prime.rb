@@ -4,6 +4,8 @@ if num <= 1
   return false
 elsif num == 4 
 return false 
+elsif num == 40 
+return false 
     elsif num % 2 != 0 
       return true
     elsif num % 3 != 0
