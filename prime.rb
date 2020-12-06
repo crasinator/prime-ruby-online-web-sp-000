@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(num)
+  if num < 0
+    
+  else 
   if num % 2 != 0 
     return true
   elsif num % 3 != 0
