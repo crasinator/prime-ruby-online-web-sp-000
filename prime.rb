@@ -4,6 +4,7 @@ def prime?(num)
     return true
   elsif num % 3 != 0
     return true
-  elsif num % 
+  elsif num % 5 != 0 
+    return true
 end
 end
